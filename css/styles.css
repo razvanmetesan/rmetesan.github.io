@@ -1,0 +1,72 @@
+/* Setează fundalul întunecat și culorile textului */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.text-warning{
+    color: rgb(7 253 255 / 98%) !important;
+}
+
+/* Efect Neon pentru boxuri */
+.neon-box {
+    position: relative;
+    padding: 20px;
+    background-color: #1c1c1c; /* Fundal întunecat pentru contrast */
+    border-radius: 8px;
+    color: #fff; /* Text alb pentru contrast */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.4);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.neon-box:hover {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 1), 0 0 30px rgba(0, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.6);
+}
+
+
+
+/* Bara de navigație întunecată */
+.navbar {
+    background-color: #1c1c1c;
+}
+
+.navbar-brand, .nav-link {
+    color: #e0e0e0 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #2196F3 !important;
+}
+
+/* Cardurile și secțiunile cu fundal închis și umbre */
+.shadow-img {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.box {
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+/* Butoane stilizate pentru tema închisă */
+.btn-primary {
+    background-color: #6200ea;
+    border-color: #6200ea;
+}
+
+.btn-primary:hover {
+    background-color: #3700b3;
+    border-color: #3700b3;
+}
+
+/* Adăugarea unui hover pentru imagini */
+.img-fluid {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
